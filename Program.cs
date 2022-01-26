@@ -10,12 +10,14 @@
     }
 }
 
+Console.Write("Исходный массив: ");
 string[] firstStr = { "machine", "two", "kdfj", "546", "-35", "ok", "note" };
 for (int j = 0; j < firstStr.Length; j++)
 {
     Console.Write(firstStr[j] + " ");
 }
 Console.WriteLine();
+Console.Write("Массив из трех символов: ");
 string[] secondStr = { };
 secondStr = firstStr;
 PrintArray(secondStr);
